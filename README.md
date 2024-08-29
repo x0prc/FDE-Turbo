@@ -29,6 +29,10 @@ Full Disk Encryption is the most essential Step 1's of installing an Operating S
 4. Finish partitioning and boot the machine.
 5. When prompted for the passphrase, use the one provided earlier.
 
+## For Windows 10/11 on x64/ARM
+- Install using the [.exe](https://github.com/x0prc/FDE-Turbo/blob/main/windows/FDESetup.exe) package (GUI Installer).
+- Also download the [Folder](https://github.com/x0prc/FDE-Turbo/tree/main/windows/FDE-Turbo%7D) for completing the requirements.
+
 ## For Kali on Raspberry Pi
 Understand and execute this [script](https://github.com/x0prc/FDE-Turbo/blob/main/scripts/kali-rasp.py).
 

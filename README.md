@@ -12,7 +12,7 @@ Full Disk Encryption is the most essential Step 1's of installing an Operating S
 # Documentation
 ## For Linux Based Distributions
 ### Script Installation
-- Install the [.deb](https://github.com/x0prc/FDE-Turbo/blob/main/debian/FDETurbo.deb) package.
+- Install the [.deb](https://github.com/x0prc/FDE-Turbo/blob/main/debian/FDETurbo.deb) package (GUI Installer).
 - Export the script contents to the directory: `/usr/local/sbin/`
 - Change the crypt config flag in `/etc/crypttab` to: <br>
   `xxx_crypt uuid=xxxxxxxxxxxxxxxxxxxxx none luks,discard,keyscript=/usr/local/sbin/azure_crypt_key.sh`
@@ -28,5 +28,8 @@ Full Disk Encryption is the most essential Step 1's of installing an Operating S
 3. Provide the passphrase that was uploaded to the key vault.
 4. Finish partitioning and boot the machine.
 5. When prompted for the passphrase, use the one provided earlier.
+
+## For Kali on Raspberry Pi
+Understand and execute this [script](https://github.com/x0prc/FDE-Turbo/blob/main/scripts/kali-rasp.py).
 
 ## NOTE : This method has been tested on Ubuntu 24.04 and previous versions. This also works for Kali on Raspberry Pi.

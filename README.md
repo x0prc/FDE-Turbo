@@ -21,6 +21,7 @@ Full Disk Encryption is the most essential Step 1's of installing an Operating S
 - Edit `/etc/initramfs-tools/modules` by appending <br>
   `vfat ntfs nls_cp437 nls_utf8 nls_iso8859-1`
 - Run `update-initramfs -u -k all` to update the initramfs.
+## For Detailed Explanation: [Pages](https://x0prc.github.io/notes/Notes/Published-Documentation/FDE-Turbo)
 
 ### Disk Encryption
 1. Create a separate unencrypted boot drive.
